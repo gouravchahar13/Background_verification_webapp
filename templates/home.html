@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{%load static%}
+{% block content %}   
+  <main>
+    <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
+      <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
+      <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
+        <div class="row d-flex align-items-center justify-content-center py-vh-5">
+          <div class="col-12 col-xl-10">
+            <h1 class="display-huge mt-3 mb-3 lh-1">Confido: A Safe Enviornment</h1>
+          </div>
+          <div class="col-12 col-xl-8">
+            <p class="lead text-secondary">Make your Workplace Enviornment Safer By Using Confido, A place is the Safest when you can trust everyone that is around you.</p>
+          </div>
+          <div class="col-12 text-center">
+            <a href="/data_input/" class="btn btn-xl btn-light">Get Started With Confido
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
+      <div class="container-fluid px-vw-5">
+        <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
+        <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+          <div class="col-12 col-lg-3">
+            <img src="{%static 'image/trust.png'%}" width="1116" height="1578" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="{%static 'image/comp.png'%}" width="1116" height="1578" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="{%static 'image/sec.png'%}" width="1116" height="848" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="3000">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark">
+      <div class="container px-vw-5 py-vh-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+            <span class="h5 text-secondary fw-lighter" id="what_we_do">What we do</span>
+            <h2 class="display-4">We provide services to verify the backgrounds of individuals. These services are commonly used by employers, landlords, and other organizations to ensure the suitability and trustworthiness of candidates</h2>
+          </div>
+          <div class="col-12 col-lg-5" data-aos="fade-left">
+            <h3 class="pt-5">Criminal Background Checks:</h3>
+            <p class="text-secondary">Identify any past convictions, arrests, or legal issues that may impact the candidate’s suitability for a position.
+              <br>
+              <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+              </svg>
+            </p>
+            <h3 class="border-top border-secondary pt-5 mt-5">Identity Verification:</h3>
+            <p class="text-secondary">Verify the candidate’s identity through various means, such as social security number verification and government-issued ID checks.
+              <br>
+              <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+              </svg>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-black py-vh-3">
+      <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
+
+        <div class="row gx-5" id="services">
+          <div class="col-12 col-md-6">
+            <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="{%static 'image/cbg.png'%}" width="582" height="327" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">Criminal Background Checks</h2>
+                  <p class="pb-4 text-secondary">Conduct checks for criminal records at the local, state, and federal levels</p>
+                  <a href="#" class="link-fancy link-fancy-light">Try it</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-transparent" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="{%static 'image/empi.png'%}" width="582" height="442" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">Identity Verification:</h2>
+                  <p class="pb-4 text-secondary">Verify the candidate’s identity through various means, such as social security number verification and government-issued ID checks.
+                  </p>
+                  <a href="#" class="link-fancy link-fancy-light">Try it</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="p-5 pt-0 mt-5" data-aos="fade">
+              <span class="h5 text-secondary fw-lighter">Confirm before you trust</span>
+              <h2 class="display-4">There is a lot we don´t know. Here is a small sneak peek</h2>
+            </div>
+            <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="{%static 'image/profile.png'%}" width="582" height="390" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">Categorize and Analyze</h2>
+                  <p class="pb-4 text-secondary">Categorize the types of fraud to identify patterns or common tactics used by fraudsters, aiding in future detection and prevention efforts.
+                  </p>
+                  <a href="#" class="link-fancy link-fancy-light">Try it</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="bg-dark position-relative">
+      <div class="container px-vw-5 py-vh-5">
+        <div class="row d-flex align-items-center">
+
+          <div class="col-12 col-lg-7">
+            <img class="img-fluid rounded-5 mb-n5 shadow" src="{%static 'image/maker.png'%}" width="512" height="512"
+              alt="a nice person" loading="lazy" data-aos="zoom-in-right">
+            <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="{%static 'image/dog.png'%}" width="512" height="512"
+              alt="another nice person" loading="lazy" data-aos="zoom-in-up">
+          </div>
+          <div class="col-12 col-lg-5 bg-dark rounded-5 py-5" data-aos="fade">
+            <span class="h5 text-secondary fw-lighter">Who are we?</span>
+            <h2 class="display-4">We are a team of professionals who are dedicated to providing the best background verification services to our clients.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+  </main>
+
+ 
+
+{% endblock %}
